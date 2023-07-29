@@ -1,6 +1,6 @@
 # Shaders and VFX for Summoned Heroes of Sakura VR
 
-I created eight unique shaders used in the Summoned Heroes of Sakura project. The shaders included fish, seaweed, wind, water, lava, terrain, crystal, and colour-changing sky. I created these shaders to bring movement and life to the Japanese Zen Garden and hell-themed battle area. I also made a handful of visual effects (VFX), including fog, flower petals, bubbles in the lava, and smoke from the lava. I created each shader using Shader Graph in Unity 2020.18.f and made the VFX using the particle effects in Unity.
+I created eight unique shaders used in the Summoned Heroes of Sakura project. The shaders included fish, seaweed, wind, water, lava, terrain, crystal, and colour-changing sky. I created these shaders to bring movement and life to the Japanese Zen Garden and hell-themed battle area. I also made a handful of visual effects (VFX), including fog, flower petals, leaves in the wind,  bubbles in the lava, and smoke and ashes from the lava. I created each shader using Shader Graph in Unity 2020.18.f and made the VFX using the particle effects in Unity.
 
 See the shader graph for each shader below. 
 
@@ -35,3 +35,4 @@ I created this shader to add a crystal-like material to the emissive Japanese sy
 ## Sky Shader
 ![Alt text](Images/SkyFade_Shader_Graph_Cole_Paskuski..png)
 I created this shader for when the players reach the bridge's halfway point. The sky will change colours to a more red colour. The colour is modified by adding a tint to the main skybox texture. 
+##
