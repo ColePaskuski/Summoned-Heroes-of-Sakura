@@ -12,7 +12,8 @@ public class ClimbableCollider : XRBaseInteractable
         // If the interactor is an XRDirectInteractor (indicating direct physical interaction in VR)
         if (interactor is XRDirectInteractor)
         {
-            // Retrieve the ActionBasedController component from the interactor and set it as the current climbing hand in the PlayerClimbingManager
+            // Retrieve the ActionBasedController component from the interactor and set it as the ->
+            //-> current climbing hand in the PlayerClimbingManager
             PlayerClimbingManager.climbingHand = interactor.GetComponent<ActionBasedController>();
         }
     }
